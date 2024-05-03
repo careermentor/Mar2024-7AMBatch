@@ -1,51 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-02T07:54:53 IST" name="Default suite" finished-at="2024-05-02T07:55:07 IST" duration-ms="13395">
+  <suite started-at="2024-05-03T07:37:00 IST" name="Default suite" finished-at="2024-05-03T07:37:11 IST" duration-ms="11184">
     <groups>
     </groups>
-    <test started-at="2024-05-02T07:54:53 IST" name="Default test" finished-at="2024-05-02T07:55:07 IST" duration-ms="13395">
-      <class name="org.wipro.auto.fb.testcase.SignupScenario_DDF">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.auto.fb.testcase.SignupScenario_DDF@5677323c]" started-at="2024-05-02T07:54:53 IST" name="launchBrowser" finished-at="2024-05-02T07:54:59 IST" duration-ms="5141" status="PASS">
+    <test started-at="2024-05-03T07:37:00 IST" name="Default test" finished-at="2024-05-03T07:37:11 IST" duration-ms="11184">
+      <class name="org.wipro.auto.fb.testcase.HeaderScenarios">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.auto.fb.testcase.HeaderScenarios@5677323c]" started-at="2024-05-03T07:37:00 IST" name="launchBrowser" finished-at="2024-05-03T07:37:09 IST" duration-ms="9113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="tc002_validsignupfunc(java.lang.String)[pri:0, instance:org.wipro.auto.fb.testcase.SignupScenario_DDF@5677323c]" started-at="2024-05-02T07:54:59 IST" name="tc002_validsignupfunc" data-provider="email or phone" finished-at="2024-05-02T07:55:00 IST" duration-ms="1485" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[User1]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="tc001_validheaderLinks()[pri:0, instance:org.wipro.auto.fb.testcase.HeaderScenarios@5677323c]" started-at="2024-05-03T07:37:09 IST" name="tc001_validheaderLinks" finished-at="2024-05-03T07:37:11 IST" duration-ms="1967" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc002_validsignupfunc -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.auto.fb.testcase.SignupScenario_DDF@5677323c]" started-at="2024-05-02T07:55:00 IST" name="closeBrowser" finished-at="2024-05-02T07:55:00 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- tc001_validheaderLinks -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.auto.fb.testcase.HeaderScenarios@5677323c]" started-at="2024-05-03T07:37:11 IST" name="closeBrowser" finished-at="2024-05-03T07:37:11 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.auto.fb.testcase.SignupScenario_DDF@5677323c]" started-at="2024-05-02T07:55:00 IST" name="launchBrowser" finished-at="2024-05-02T07:55:05 IST" duration-ms="5074" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="tc002_validsignupfunc(java.lang.String)[pri:0, instance:org.wipro.auto.fb.testcase.SignupScenario_DDF@5677323c]" started-at="2024-05-02T07:55:05 IST" name="tc002_validsignupfunc" data-provider="email or phone" finished-at="2024-05-02T07:55:07 IST" duration-ms="1599" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1234567890]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc002_validsignupfunc -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.auto.fb.testcase.SignupScenario_DDF@5677323c]" started-at="2024-05-02T07:55:07 IST" name="closeBrowser" finished-at="2024-05-02T07:55:07 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- org.wipro.auto.fb.testcase.SignupScenario_DDF -->
+      </class> <!-- org.wipro.auto.fb.testcase.HeaderScenarios -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
